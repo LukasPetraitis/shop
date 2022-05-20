@@ -1,10 +1,5 @@
-/target
-/warehouse/target
-/shopApp/target
-
-/.idea
-/warehouse/.idea
-/shopApp/.idea
+target
+.idea
 
 *.jar
 *.war
