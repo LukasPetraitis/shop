@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="counter" />
+        <module name="warehouse" />
         <module name="itemdto" />
         <module name="warehouseApp" />
         <module name="shopApp" />
@@ -14,7 +16,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="counter" options="-parameters" />
       <module name="shopApp" options="-parameters" />
+      <module name="warehouse" options="-parameters" />
       <module name="warehouseApp" options="-parameters" />
     </option>
   </component>
