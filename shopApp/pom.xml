@@ -8,14 +8,13 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.visma.shop</groupId>
 	<artifactId>counter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+
 	<name>counter</name>
 	<description>shop counter</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+
 	<dependencies>
 
 		<dependency>

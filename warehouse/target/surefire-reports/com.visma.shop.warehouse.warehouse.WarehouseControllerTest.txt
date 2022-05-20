@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.visma.shop.warehouse.warehouse.WarehouseControllerTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.698 s - in com.visma.shop.warehouse.warehouse.WarehouseControllerTest

@@ -35,7 +35,7 @@ public class ItemsService {
                 url,
                 HttpMethod.GET,
                 getAuthentication(),
-                new ParameterizedTypeReference<>() {  } );
+                new ParameterizedTypeReference<List<ItemDTO>>() {  } );
 
         List<ItemDTO> items = result.getBody();
         return items;
@@ -57,7 +57,7 @@ public class ItemsService {
         return result;
     }
 
-    public HttpEntity<String> getAuthentication(){
+    private HttpEntity<String> getAuthentication(){
 
         byte[] authToBytes = authentication.getBytes();
         byte[] base64Encode = Base64.encodeBase64(authToBytes);
