@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="script-shop.js"></script>
+    <script th:inline="javascript">
+        var items = [[${items}]];
+        console.log(items[0]);
+    </script>
+    <title>Welcome!</title>
+</head>
+<body>
+    <div id="mainDiv">
+        <h1 >Welcome!</h1>
+
+        <p>Click button to see our products.</p>
+
+        <button  type="button"  onclick="showItems(items)" >Continue</button>
+    </div>
+    <div id="itemsDiv">
+
+    </div>
+</body>
+</html>
