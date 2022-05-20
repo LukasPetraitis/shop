@@ -1,7 +1,5 @@
 target
 .idea
 
-**/warehouse/.idea/
-
 *.jar
 *.war

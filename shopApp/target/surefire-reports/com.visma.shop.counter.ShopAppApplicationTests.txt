@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.visma.shop.counter.ShopAppApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.449 s - in com.visma.shop.counter.ShopAppApplicationTests
